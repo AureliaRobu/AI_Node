@@ -1,0 +1,24 @@
+{
+  "name": "ai_node",
+  "version": "1.0.0",
+  "description": "Learning LangChain",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AureliaRobu/AI_Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AureliaRobu/AI_Node/issues"
+  },
+  "homepage": "https://github.com/AureliaRobu/AI_Node#readme",
+  "dependencies": {
+    "openai": "^4.87.4"
+  }
+}
