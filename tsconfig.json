@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                     // Use latest ECMAScript features
+    "module": "commonjs",                    // Use ES modules
+    "moduleResolution": "Node",            // Resolve modules in a Node.js-like manner
+    "strict": true,                        // Enforce strict type checking
+    "esModuleInterop": true,               // Allow default imports from non-ES modules
+    "skipLibCheck": true,                  // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Prevent casing discrepancies in imports
+    "outDir": "./dist",                    // Specify output directory for compiled files
+    "resolveJsonModule": true,             // Allow importing of JSON files
+    "typeRoots": ["./node_modules/@types"],
+    "useUnknownInCatchVariables": false
+  },
+  "include": [
+    "src/**/*.ts"                          // Include all TypeScript files in 'src' directory
+  ],
+  "exclude": [
+    "node_modules",                        // Exclude 'node_modules' directory
+    "dist"                                 // Exclude output directory
+  ]
+}

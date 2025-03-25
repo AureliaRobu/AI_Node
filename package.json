@@ -2,10 +2,9 @@
   "name": "ai_node",
   "version": "1.0.0",
   "description": "Learning LangChain",
-  "main": "index.js",
-  "type": "module",
+  "main": "index.ts",
   "scripts": {
-    "start": "node --env-file=.env src/index.js"
+    "start": "node -r ts-node/register --env-file=.env src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,15 @@
   },
   "homepage": "https://github.com/AureliaRobu/AI_Node#readme",
   "dependencies": {
-    "openai": "^4.87.4"
+    "@langchain/openai": "^0.4.9",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.19",
+    "openai": "^4.87.4",
+    "tiktoken": "^1.0.20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   }
 }
