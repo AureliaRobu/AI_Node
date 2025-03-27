@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/AureliaRobu/AI_Node#readme",
   "dependencies": {
+    "@langchain/core": "^0.3.43",
+    "@langchain/groq": "^0.2.0",
     "@langchain/openai": "^0.4.9",
     "dotenv": "^16.4.7",
     "langchain": "^0.3.19",
