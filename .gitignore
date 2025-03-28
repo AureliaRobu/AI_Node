@@ -58,3 +58,4 @@ coverage/
 .fusebox/
 .dynamodb/
 .tern-port
+data

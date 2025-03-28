@@ -18,13 +18,19 @@
   },
   "homepage": "https://github.com/AureliaRobu/AI_Node#readme",
   "dependencies": {
+    "@langchain/community": "^0.3.37",
     "@langchain/core": "^0.3.43",
     "@langchain/groq": "^0.2.0",
     "@langchain/openai": "^0.4.9",
+    "chromadb": "^2.1.0",
+    "d3-dsv": "^2.0.0",
     "dotenv": "^16.4.7",
+    "faiss-node": "^0.5.1",
     "langchain": "^0.3.19",
     "openai": "^4.87.4",
-    "tiktoken": "^1.0.20"
+    "pdf-parse": "^1.1.1",
+    "tiktoken": "^1.0.20",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/node": "^22.13.13",
